@@ -2,23 +2,10 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 const Professors = () => {
-  const [professors, setProfessors] = useState(null);
-  // useEffect(() => {
-  //   const fetchProfessors = async () => {
-  //     const response = await fetch("http://localhost:4000/api/professors");
-  //     const json = await response.json();
-  //     if (response.ok) {
-  //       setProfessors(json);
-  //     }
-  //   };
-  //   fetchProfessors();
-  // }, []);
+  
   return (
     <div>
-      {/* {professors &&
-        professors.map((professor) => (
-          
-        ))} */}
+      {
       <section class="bg-gray-50 dark:bg-gray-900 ">
         <div class="m-auto max-w-screen-lg ">
           {/* <!-- Start coding here --> */}
